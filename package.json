@@ -1,0 +1,29 @@
+{
+  "name": "try-catch-retrier",
+  "version": "1.0.1",
+  "description": "A flexible retry utility for JavaScript and TypeScript, with customizable settings.",
+  "keywords": [
+    "retry",
+    "utility",
+    "typescript",
+    "javascript",
+    "function"
+  ],
+  "author": "Fredrik Olander",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/@types/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
